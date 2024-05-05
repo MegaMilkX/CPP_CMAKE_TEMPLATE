@@ -71,7 +71,6 @@ build/*
 !build/data/
 bld/
 [Oo]bj/
-build/
 
 #other
 !data/

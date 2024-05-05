@@ -22,7 +22,7 @@ file(GLOB_RECURSE SRC_FILES
 )
 #message(STATUS "${SRC_FILES}")
 if (MSVC)
-	add_executable(${PROJECT_NAME} ${SRC_FILES} "${CMAKE_SOURCE_DIR}../../build/resource.rc")
+	add_executable(${PROJECT_NAME} ${SRC_FILES} "${CMAKE_SOURCE_DIR}../../build/data/resource.rc")
 else ()
 	add_executable(${PROJECT_NAME} ${SRC_FILES})
 endif ()
